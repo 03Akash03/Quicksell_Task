@@ -145,3 +145,86 @@ label {
   background-color: #f9f9f9; 
   border: 1px solid #e0e0e0; 
 }
+.display-dropdown {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Light background for dropdown */
+}
+
+.dropdown-content {
+  position: absolute; /* Adjust position */
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.grouping, .sorting {
+  margin-bottom: 10px;
+}
+
+.header {
+  padding: 16px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjusts spacing between controls */
+}
+
+.display-dropdown {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.display-dropdown:hover {
+  background-color: #f0f0f0;
+}
+
+.icon {
+  width: 20px; /* Adjust size as needed */
+  height: 20px;
+  margin-right: 5px; /* Space between icon and text */
+  fill: #5C5C5E; /* Icon color */
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 50px; /* Adjust based on your layout */
+  left: 0;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+}
+
+.grouping,
+.sorting {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 8px; /* Space between label and select */
+}
+
+select {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
